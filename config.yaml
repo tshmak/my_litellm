@@ -1,0 +1,30 @@
+model_list:
+  # Github copilot
+  - model_name: gpt-5.4
+    litellm_params:
+      model: github_copilot/gpt-5.4
+  - model_name: gpt-5.3-codex
+    litellm_params:
+      model: github_copilot/gpt-5.3-codex
+  - model_name: gpt-4.1
+    litellm_params:
+      model: github_copilot/gpt-4.1
+  - model_name: claude-opus-4.6
+    litellm_params:
+      model: github_copilot/claude-opus-4.6
+  - model_name: gemini-3-pro-preview
+    litellm_params:
+      model: github_copilot/gemini-3-pro-preview
+
+  # Actually my z.ai coding plan doesn't support LiteLLM use -- only through coding agents allowed: https://docs.z.ai/devpack/faq#technical-support
+  # - model_name: glm-5
+  #   litellm_params:
+  #     model: zai/glm-5
+  #     # api_base: "os.environ/ZAI_BASE_URL"
+  #     api_key: "os.environ/ZAI_API_KEY"
+  # - model_name: glm-4.7
+  #   litellm_params:
+  #     model: zai/glm-4.7
+  #     # api_base: "os.environ/ZAI_BASE_URL"
+  #     api_key: "os.environ/ZAI_API_KEY"
+
